@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.dylib filter=lfs diff=lfs merge=lfs -text
+[[:space:]]Assets/Characters/Shopkeeper/Istuu.fbx filter=lfs diff=lfs merge=lfs -text
+Assets/Characters/Shopkeeper/*.fbx filter=lfs diff=lfs merge=lfs -text
